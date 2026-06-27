@@ -1,1 +1,49 @@
-/* code here */
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+header img {
+  height: 50px;
+  width: 50px;
+  padding: 15px 20px;
+}
+
+nav {
+  font-size: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+section {
+  padding: 50px 40px;
+  border-bottom: 1px solid lightgray;
+}
+
+#PhotoProfile {
+  margin: 50px;
+}
+
+#PhotoProfile img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 0;
+}
+
+#first {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 50px;
+}
+
+#hero > p {
+  font-size: 20px;
+}
