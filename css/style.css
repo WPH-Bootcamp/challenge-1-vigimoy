@@ -47,3 +47,11 @@ section {
 #hero > p {
   font-size: 20px;
 }
+
+#about p {
+  font-size: 20px;
+}
+
+#skills > ul {
+  font-size: 20px;
+}
