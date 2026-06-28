@@ -55,3 +55,27 @@ section {
 #skills > ul {
   font-size: 20px;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.card {
+  border: solid 1px lightgray;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+}
+
+#contact {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: gray;
+}
